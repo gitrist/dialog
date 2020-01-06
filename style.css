@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dialog-tm {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-tm-box {
+    width: 85vw;
+    min-height: 120px;
+    max-height: 60vh;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.dialog-tm-box-title {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.dialog-tm-box-content {
+    min-height: 40px;
+    max-height: calc(60vh - 80px);
+    overflow-y: auto;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.dialog-tm-box-content-content {
+    text-align: justify;
+    display: inline-block;
+
+}
+
+.dialog-tm-box-content-input {
+    width: 100%;
+    height: 30px;
+    border: 0;
+    outline: none;
+}
+
+.dialog-tm-box-options {
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-top: 1px solid #eee;
+}
+
+.dialog-tm-box-options span {
+    flex: 1;
+}
+
+.dialog-tm-box-options span:nth-of-type(2) {
+    border-left: 1px solid #eee;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        button{
+            padding: 10px 12px;
+            margin: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button onclick="Talert()">alert</button>
+    <button onclick="Tconfirm()">confim</button onclick="Talert()">
+    <button onclick="Tprompt()">prompt</button onclick="Talert()">
+    <script src="./tm.js"></script>
+    <script>
+        function Talert() {
+            TM.alert(`1`).then(function (res) {
+                console.log(123);
+            });
+        }
+        function Tconfirm() {
+            TM.confirm("123").then(function (res) {
+                console.log(123);
+            });
+        }
+        function Tprompt() {
+            TM.prompt("123").then(function (res) {
+                console.log(res);
+            });
+        }
+    </script>
+</body>
+
+</html>
