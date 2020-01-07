@@ -8,4 +8,6 @@
 ```
 
 
-![https://github.com/gitrist/dialog/blob/master/assert/alert.jpg](https://github.com/gitrist/dialog/blob/master/assert/alert.jpg)
+![avatar](https://github.com/gitrist/dialog/blob/master/assert/alert.jpg)
+![avatar](https://github.com/gitrist/dialog/blob/master/assert/confirm.jpg)
+![avatar](https://github.com/gitrist/dialog/blob/master/assert/prompt.jpg)
